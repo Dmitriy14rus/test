@@ -1,0 +1,24 @@
+@media  screen and (max-width:992px) {
+    .container {
+            max-width: 100%;
+        }
+    .col-lg-4 {
+        width: calc(33.33% - var(--gutter));
+    }
+    }
+    @media  screen and (max-width:768px) {
+    .container {
+        max-width: 100%;
+    }
+    .col-md-6 {
+        width: calc(50% - var(--gutter));
+    }
+    }
+    @media  screen and (max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+    .col-sm-12 {
+        width: calc(100% - var(--gutter));
+    }    
+    }
